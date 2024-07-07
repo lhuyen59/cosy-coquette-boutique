@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosy's Coquette Boutique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            color: #ff69b4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ff69b4;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .content {
+            max-width: 800px;
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        .icon {
+            width: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cosy's Coquette Boutique</h1>
+        <nav>
+            <a href="#about">Về Tôi</a>
+            <a href="#products">Sản Phẩm</a>
+            <a href="#contact">Liên Hệ</a>
+        </nav>
+    </header>
+    <div class="content" id="about">
+        <h2>Về Tôi</h2>
+        <p>Xin chào! Tôi là Cosy, một học sinh từ Việt Nam. Tôi yêu thích phong cách coquette và mong muốn chia sẻ những sản phẩm quần áo và giày dép đáng yêu với mọi người.</p>
+    </div>
+    <div class="content" id="products">
+        <h2>Sản Phẩm</h2>
+        <p>Đang cập nhật các sản phẩm mới nhất...</p>
+    </div>
+    <div class="content" id="contact">
+        <h2>Liên Hệ</h2>
+        <p>Theo dõi tôi trên Instagram: <a href="https://instagram.com/lkhn_59" target="_blank">@lkhn_59</a></p>
+    </div>
+    <footer>
+        <p>© 2024 Cosy's Coquette Boutique. Tất cả các quyền được bảo lưu.</p>
+        <img src="https://example.com/bunny-icon.png" alt="Bunny Icon" class="icon">
+        <img src="https://example.com/bow-icon.png" alt="Bow Icon" class="icon">
+    </footer>
+</body>
+</html>
